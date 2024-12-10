@@ -88,7 +88,7 @@ body {
   position: fixed;
   top: 20px;
   left: 20px;
-  z-index: 3;
+  z-index: 5;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -336,6 +336,11 @@ body {
   .socials{
       scale: 90%;
   }
+
+   #main-cont{
+        font-size: 3.5rem;
+        text-align: center;
+      }
 }
 
 /* Mobile L: 425px */
@@ -424,6 +429,11 @@ body {
       gap: 0.5rem;
       scale: 85%;
   }
+
+   #main-cont{
+    font-size: 3rem;
+    text-align: center;
+  }
 }
 
 /* Mobile M: 375px */
@@ -503,6 +513,11 @@ body {
 
   .socials{
       scale: 80%;
+  }
+
+   #main-cont{
+    font-size: 2rem;
+    text-align: center;
   }
 }
 
@@ -615,5 +630,10 @@ body {
 
   .socials{
       scale: 70%;
+  }
+
+   #main-cont{
+    font-size: 2rem;
+    text-align: center;
   }
 }
