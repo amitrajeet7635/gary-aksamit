@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Keynote Speaker</title>
+    <link rel="icon" type="image/png" href="/images/demo pic.jpg" />
+    <link rel="stylesheet" href="/css/keynote.css">
+</head>
+
+<body>
+    <!-- Hamburger and Side Navbar -->
+    <div class="hamburger" onclick="toggleNav(this)">
+        <div class="bar bar1"></div>
+        <div class="bar bar2"></div>
+        <div class="bar bar3"></div>
+    </div>
+    <div id="sideNav" class="side-nav">
+        <a href="index.html">Home</a>
+        <a href="keynote.html">Keynote</a>
+        <a href="blog.html">Blog</a>
+        <a href="books.html">Books</a>
+    </div>
+
+    <!-- Main Content Section -->
+    <div class="content">
+        <h1 class="title">KEYNOTE SPEAKER</h1>
+
+        <!-- Videos Section -->
+        <div class="video-section">
+            <div class="video-card">
+                <img src="/images/demo pic.jpg" alt="Motivational" class="video-image">
+                <p>Motivational</p>
+            </div>
+            <div class="carousel-container">
+                <button class="carousel-button left" onclick="slideLeft()">&#10094;</button>
+                <div class="video-carousel">
+                    <div class="video-slide">
+                        <video class="video-frame" controls>
+                            <source src="videos/WhatsApp Video 2024-03-24 at 01.17.31_6a3f7aac.mp4"
+                                type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
+                    </div>
+                    <div class="video-slide">
+                        <video class="video-frame" controls>
+                            <source src="/videos/Portfolio For Shorts Editing.mp4" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
+                    </div>
+
+                    <!-- Add more video-slide divs as needed -->
+                </div>
+                <button class="carousel-button right" onclick="slideRight()">&#10095;</button>
+            </div>
+
+            <div class="video-card second-vd-card">
+                <img src="/images/demo pic.jpg" alt="Entrepreneurial Leadership" class="video-image">
+                <p class="Leadership">Entrepreneurial Leadership</p>
+            </div>
+
+
+        </div>
+
+        <!-- Contact Form Section -->
+        <section class="contact-section">
+            <div class="card">
+                <h2>Let Us Know More About You!</h2>
+                <div class="row">
+                    <div class="col">
+                        <div class="form-group">
+                            <label>First Name</label>
+                            <input type="text">
+                        </div>
+                    </div>
+
+                    <div class="col">
+                        <div class="form-group">
+                            <label>Surname</label>
+                            <input type="text">
+                        </div>
+                    </div>
+
+                    <div class="col">
+                        <div class="form-group">
+                            <label>Email</label>
+                            <input type="text">
+                        </div>
+                    </div>
+
+                    <div class="col">
+                        <div class="form-group">
+                            <label>Phone</label>
+                            <input type="text">
+                        </div>
+                    </div>
+
+                    <div class="col">
+                        <div class="form-group">
+                            <label>Message</label>
+                            <textarea style="height: 150px; "></textarea>
+                        </div>
+                    </div>
+
+                    <div class="col">
+                        <input type="submit" value="Submit">
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>Gary Aksamit</p>
+        <p>© 2024 Gary Aksamit. All rights reserved.</p>
+        <div class="socials">
+            <a href="#"><img src="/images/Instagram.png" alt="insta"></a>
+            <a href="https://www.linkedin.com/in/gary-aksamit-6386b2177/" target="_blank"><img src="/images/Linkedin.png" alt="linkedin"></a>
+            <a href="https://x.com/GaryAksamit" target="_blank"><img src="/images/X.png" alt="x"></a>
+        </div>
+    </footer>
+
+    <script src="/app.js"></script>
+</body>
+
+</html>
+
+
