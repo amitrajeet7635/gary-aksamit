@@ -136,6 +136,13 @@ body {
   font-weight: 100;
 }
 
+.press li{
+  list-style-type: disc;
+  margin-left: 1.5rem;
+  color: rgb(27, 60, 225);
+  font-size: 1.2rem;
+}
+
 
 
 /* ************************************************ */
